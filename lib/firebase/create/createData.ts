@@ -10,12 +10,9 @@ export const addHotelDetailsInFirebaseCollection = async (
   console.log("collectionName >>", collectionName);
   console.log("hotelData >>", hotelData);
 
-  // your document collection reference
   const docRef = doc(db, collectionName, hotelData.hotelSlug);
-  console.log(imageData)
   try {
     const isExsist = await getDoc(docRef);
-    // if a document already exsits with the hotel slug then return an object with error
     if (isExsist.exists()) {
       return {
         status: "FAILED",

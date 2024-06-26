@@ -59,7 +59,7 @@ export default function page() {
   
 
   return (
-    <section className="w-full h-screen m-5">
+    <section className="w-full h-screen">
       {loading ? (
        <div className="d-flex justify-content-center align-items-center" style={{height : '100vh'}}>
        <l-orbit
