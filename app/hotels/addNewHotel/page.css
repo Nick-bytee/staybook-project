@@ -1,0 +1,50 @@
+.add-hotel input{
+    border: 1px solid gainsboro;
+    border-radius: 10vh;
+    padding: 1vh;
+    margin-top: 0.5vh;
+}
+
+.hover-image{
+    max-width: 20vh;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-image:hover{
+    filter: brightness(30%);
+}
+
+.container{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+}
+
+.hover-button{
+    position: absolute; 
+    top: 40%;
+    left: 20%;
+    width: 110px; 
+    height: 40px; 
+    border-radius: 10px; 
+    font-size: 17px; 
+    border: none; 
+    transition: 0.3s linear; 
+    color: red;
+    cursor: pointer;
+
+}
+
+.hover-button:hover{
+    transform: translateY(-5px);
+}
+
+img { 
+    width: 500px; 
+    margin: 0; 
+    padding: 0; 
+    border-radius: 10px; 
+    box-shadow: rgb(21, 20, 20) 0px 3px 20px; 
+} 

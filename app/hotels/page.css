@@ -1,0 +1,14 @@
+.hotel-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.hotel-div:hover {
+    transform: scale(1.05);
+}

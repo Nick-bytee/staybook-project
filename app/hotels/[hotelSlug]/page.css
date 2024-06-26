@@ -1,0 +1,20 @@
+/* .hoteldetails{
+    height: 70vh;
+}
+
+.image{
+    max-width: 80vh;
+    height: 100vh;
+} */
+
+.details {
+    margin: 1rem;
+    
+}
+
+.details input{
+    border: 1px solid gainsboro;
+    border-radius: 10vh;
+    padding: 1vh;
+    margin-top: 0.5vh;
+}
