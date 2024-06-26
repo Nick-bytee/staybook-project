@@ -3,7 +3,7 @@ import { query, orderBy, startAfter, collection, getDocs, limit } from "firebase
 import { db } from "../firebaseConfig";
 
 export const readDataFromFirebaseCollection = async() => {
-    const first = query(collection(db, "HotelCollection"), limit(3));
+    const first = query(collection(db, "HotelCollection"), limit(5));
     const snapshot = await getDocs(first)
 
     const lastVisible = snapshot.docs[snapshot.docs.length-1];

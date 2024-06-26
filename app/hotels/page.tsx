@@ -86,10 +86,10 @@ export default function page() {
             next={fetchMoreData}
             hasMore={hasMore}
             loader={loader}
-            scrollableTarget="scrollableDiv"
-            style={{ overflow: 'auto' }}
+            // scrollableTarget="scrollableDiv"
+            style={{overflow : 'auto'}}
           >
-            <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4 mt-3">
+            <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-3">
               {data.map((hotel : any, index : number) => (
                 <Link
                   href={`/hotels/${hotel.hotelSlug}`}
