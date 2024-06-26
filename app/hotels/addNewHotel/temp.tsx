@@ -55,7 +55,8 @@ export default function AddNewHotelPage() {
     event.preventDefault();
     const res = await addHotelDetailsInFirebaseCollection(
       "HotelCollection",
-      hotelData
+      hotelData,
+      []
     );
     console.log(imageUrls);
     if (res.status === "OK") {
